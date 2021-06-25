@@ -1,0 +1,51 @@
+<div class="outer">
+  <div class="circle1">
+  <div class="rectangle">
+    <div class="circle2"></div>
+  </div>
+  </div>
+</div>
+<style>
+  *{
+    margin:0;
+  }
+  .outer {
+    background-color: #19191A;
+      height:100%;
+    width:100%;
+  }
+  .circle1{
+    position:relative;
+    background-color:#4F77FF;
+    top:50px;
+    margin:auto;
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+  }  
+  .rectangle{
+    position:relative;
+    right:37.5px;
+    top:75px;
+    background-color:#F9E492;
+    margin:auto;
+    width:75px;
+    height:125px;
+    overflow:hidden;
+  }
+  
+    .circle2{
+      position:relative;
+    background-color:#9AD5FF;
+    margin:auto;
+      bottom:75px;
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+    }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #dd6b4d;
+  }
+</style>
